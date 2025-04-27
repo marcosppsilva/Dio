@@ -1,0 +1,12 @@
+Usar o nodeJS para esse projeto
+
+npm initi -y para criar projeto (y ele pula as etapas de definições de nome etc)
+Instalar dependencias para o projeto
+
+npm install bip39 (bitcou improovemente propostal serve para gerar seeds, carteiras de bitcoin)
+
+npm install bip39 bip32@2.0.6 bitcoinjs-lib --save (instala todas as dependências de uma só vez)
+
+em https://www.blockchain.com/pt/explorer você consegue procurar a carteira através do endereço e supostamente deve aparecer as informações da mesma
+
+https://bitcoinfaucet.uo1.net/ site para teste de transação de bictoin com bitcoins que não valemcl
