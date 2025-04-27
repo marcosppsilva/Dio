@@ -23,7 +23,7 @@ let root = bip32.fromSeed(seed, network);
 let account = root.derivePath(path);
 let node = account.derive(0).derive(0);
 
-let btcAddres = bitcoin.payments.p2pkh({
+let btcAddres = bitcoin.payments.p2wpkh({
     pubkey: node.publicKey,
     network: network,
 }).address;
